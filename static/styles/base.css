@@ -21,4 +21,5 @@ main{
 img{
     float: left;
     height: 352px;
+    margin-top: -42px;
 }

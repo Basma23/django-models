@@ -1,8 +1,9 @@
-from django.test import SimpleTestCase
+from django.test import TestCase
+from django.urls import reverse
 
 # Create your tests here.
 
-class BlogTest(SimpleTestCase):
+class BlogTest(TestCase):
     def test_home_page_status_code(self):
         expected = 200
         url = reverse('home')
